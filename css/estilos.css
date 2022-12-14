@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-family: 'Exo 2',sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+/* ----- ----- HEADER ----- ----- */
+header {
+  height: 100px;
+  background-color: #000;}
+  header .contenedor_logo_menu { 
+
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+ 
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 100%;
+        vertical-align: top; }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 18px; }
+        header .contenedor_logo_menu .menu a:hover {
+          color: red;
+        }
+  header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 200px 0; }
+ 
+ 
+   
+
+/* ----- ----- MAIN ----- ----- */
+.main .nosotros {
+  padding: 70px 0;
+}
+.main .nosotros .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 70px; }
+  .main .nosotros .titulo p{
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Exo 2',sans-serif;
+    padding: 10px 10px;  
+  }
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .caracteristicas .caracteristica .primera_linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 28px; }
+
+.main .clientes {
+  background: #2d353e;
+  padding: 40px 0; }
+  .main .clientes .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 40px; }
+  .main .clientes .cliente {
+    text-align: center; 
+    }
+    .main .clientes .cliente a {
+      display: block;
+      justify-content: center;
+    }
+.main .precios {
+  background: url("../img/precios-bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .main .precios .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 70px; }
+  .main .precios .plan {
+    background: #fff;
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    .main .precios .plan .nombre {
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    .main .precios .plan .precio {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 30px; }
+    .main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      .main .precios .plan .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; }
+    .main .precios .plan .btn {
+      width: 70%;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px; }
+      .main .precios .plan .btn:hover {
+        text-decoration: none; }
+    .main .precios .plan.rojo .nombre,
+    .main .precios .plan.rojo .precio {
+      color: #fff; }
+      .main .precios .plan.plan.rojo {
+        background-color: #cd201f;
+        color: #fff;}
+    .main .precios .plan.rojo .btn {
+      color: #089e4b;
+      border: 2px solid #089e4b; }
+      .main .precios .plan.rojo .btn:hover {
+        background: #089e4b;
+        color: #fff; }
+    .main .precios .plan.blanco {
+      background: #fff;
+      color:#cd201f; }
+      .main .precios .plan.blanco .btn {
+        color: #cd201f;
+        border: 2px solid #cd201f; }
+        .main .precios .plan.blanco .btn:hover {
+          background: #cd201f;
+          color: #fff; }
+    .main .precios .plan.verde {
+            background: #089e4b;
+            color:#fff; }
+    .main .precios .plan.verde .nombre,
+    .main .precios .plan.verde .precio {
+      color: #fff; }
+    .main .precios .plan.verde .btn {
+      color: #fff;
+      border: 2px solid #fff; }
+      .main .precios .plan.verde .btn:hover {
+     
+      background: #fff ;
+        color: #089e4b; }
+.main .reviews {
+  padding: 70px; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #089e4b;
+    margin-bottom: 70px; }
+  .main .reviews .cliente {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .main .reviews .cliente .foto {
+      width: 20%;
+      float: left;
+      text-align: right; }
+      .main .reviews .cliente .foto img {
+        max-width: 100px;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 100%; }
+    .main .reviews .cliente .review {
+      float: left;
+      width: 80%;
+      padding: 0 30px;
+      margin-top: 20px; }
+      .main .reviews .cliente .review .texto {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px; }
+      .main .reviews .cliente .review .nombre {
+        color:#cd201f;
+        font-size: 14px; }
+    .main .reviews .cliente.derecha .foto {
+      float: right;
+      text-align: left; }
+    .main .reviews .cliente.derecha .review {
+      float: right;
+      text-align: right; }
+
+/* ----- ----- FOOTER ----- ----- */
+footer .direccion {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff; }
+  footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  footer .direccion .calle,
+  footer .direccion .telefono,
+  footer .direccion .correo {
+    margin-bottom: 10px; }
+  footer .direccion .logo img {
+    margin-top: 70px; }
+footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px; }
+    footer .social a:hover {
+      text-decoration: none; }
+    footer .social a.facebook {
+      background: #3b5998; }    
+    footer .social a.instagram {
+      background: #cd201f; }
+
+
+
+
+/*# sourceMappingURL=estilos.css.map */
